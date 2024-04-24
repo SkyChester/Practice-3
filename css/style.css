@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+.flexc {
+ margin-top: 15%;
+ display: flex;
+ width: 100%;
+ justify-content: center;   
+}
+
+.flexw {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+
+.flexb {
+    display: flex;
+    width: 26.6%;
+    justify-content: center;
+}
+
+.flexn {
+    width: 75%;
+    background-color: blanchedalmond;
+    text-align: center;
+    border-radius: 5%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.359);
+}
+
+.flexn h1 {
+    text-shadow: 0 -5px 5px white, 0 5px 5px gray;
+}
+
+.flexn p {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: left;
+    margin-top: 0;
+}
+
+.sticker {
+ position: absolute;
+ width: 60%;
+ background-color: rgba(0, 0, 0, 0.5);
+ height: 45px;
+ top: -10%;
+ border-radius: 7px 7px 0 0;
+}
